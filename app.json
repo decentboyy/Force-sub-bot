@@ -26,7 +26,8 @@
     },
     "DATABASE_URL": {
       "description": "Database Url Leave It to f you don't have one",
-      "value": ""
+      "value": "",
+      "required": false
     }, 
     "SUDO_USERS": {
       "description": "Id's Of those Who Also Have the access",
