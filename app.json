@@ -1,0 +1,45 @@
+
+{
+  "name": "Force Sub Bot",
+  "description": "Telegram's Fastest Force Subscriber Bot! ",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "Channel",
+    "Subscriber", 
+    "Bot"
+  ],
+  "repository": "https://github.com/No-OnE-Kn0wS-Me/force-subscribe-telegram-bot",
+  "env": {
+    "APP_ID": {
+      "description": "Get Your App id From mytelegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": " Get it from mytelegram.org",
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "Database Url Leave It to f you don't have one",
+      "value": ""
+    }, 
+    "SUDO_USERS": {
+      "description": "Id's Of those Who Also Have the access",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "20"
+      }
+    }
+  ]
+}
+ 
