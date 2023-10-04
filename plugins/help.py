@@ -42,7 +42,7 @@ def map(pos):
             [InlineKeyboardButton(text = '-->', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
-        url = "https://github.com/decentboyy/Force-sub-bot/issues/new"
+        url = "https://t.me/Decentassistantbot"
         button = [
             [InlineKeyboardButton(text = 'Update Channel', url="https://t.me/CodeNexus_community")],
              [InlineKeyboardButton(text = 'Support Chat', url="https://t.me/Iink_ka_adda")],
