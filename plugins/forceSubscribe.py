@@ -54,7 +54,7 @@ def _check_member(client, message):
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")],  
-                                                [InlineKeyboardButton(text="Channel",url="https://t.me/BoX_0fFiCe"),InlineKeyboardButton(text="Project",url="https://t.me/Mai_bOTs")]])) 
+                                                [InlineKeyboardButton(text="Channel",url="https://t.me/CodeNexus_community"),InlineKeyboardButton(text="Owner",url="https://t.me/decent_op")]])) 
         
           client.restrict_chat_member(chat_id, user_id, ChatPermissions(can_send_messages=False))
         except ChatAdminRequired:
